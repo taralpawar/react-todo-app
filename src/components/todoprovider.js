@@ -4,7 +4,7 @@ export const TodoContext = createContext();
 
 export const TodoProvider = (props) => {
   const [todo, setTodo] = useState([
-    { text: "Give me attention", id: shortid.generate() },
+    { text: "Drink enough water", id: shortid.generate() },
   ]);
 
   const deleteTodo = (id) => {
